@@ -1,0 +1,24 @@
+
+-Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+---------------------------------------------------------
+Sıralı Listemiz : [0,1,2,3,5,6,7,8,9]
++Adım: İlk elemanı kök yap. Yani, root = 7.
+
+-Adım: 5, root'un solundadır. 1, 3, 0, 4, 2 sırayla 5'in soluna eklenir.
+
++Adım: 8, root'un sağındadır. 6, 9 sırayla 8'in sağına eklenir.
+
+-Sonuç olarak oluşan BST şu şekildedir:
+        7
+       / \
+      5   8
+     /|     \
+    1 6      9
+   / \
+  0 3
+    |
+    2
+     \
+      4
+----------------------------------------------------------
